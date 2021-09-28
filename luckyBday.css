@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+:root
+{
+  --primary-dark : #202029;
+  --primary-light : #04bf97;
+}
+
+body{
+  background-color: var(--primary-dark);
+  color: var(--primary-light);
+  font-family: 'Grechen Fuemen', cursive;
+}
+
+
+h1{
+  text-align: center;
+}
+
+.container
+{
+  width: 50%;
+  margin: 0px auto;
+}
+
+input,label
+{
+  display: block;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+input{
+  margin-bottom: 0.5rem;
+  width: 100%;
+ padding: 5px;
+ border: none;
+ border-radius: 5px;
+
+}
+
+#check-number
+{
+  font-family: 'Grechen Fuemen', cursive;
+  display: block;
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: medium;
+  border-color: var(--primary-light);
+  font-size: 1.1rem;
+}
